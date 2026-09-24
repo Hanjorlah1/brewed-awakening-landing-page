@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewed Awakening</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body {
+        box-sizing: border-box;
+        background-color: #fff8f5;
+      }
+      #hero {
+        background-color: #fff8f5;
+        min-height: 100vh;
+      }
+      .grid-container {
+        display: grid;
+      }
+      .hero-title {
+        color: #2b1810;
+      }
+      .hero-title span {
+        color: #825430;
+      }
+      .hero-main-image {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 15px;
+        border-radius: 20px;
+      }
+      .hero-main-image-div {
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+        overflow-x: clip;
+      }
+      .hero-btn-div {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+      .btn {
+        height: 40px;
+        background-color: #f8ebe4;
+        border-radius: 10px;
+        min-width: 60px;
+        color: #2b1810;
+      }
+      .cta-btn {
+        background-color: #2b1810;
+        color: #ffffff;
+      }
+      .hero-badge-div {
+        display: flex;
+        gap: 8px;
+        font-size: 10px;
+        font-weight: 500;
+      }
+      .hero-badge {
+        box-sizing: border-box;
+        background-color: #fef1ea;
+        border-radius: 20px;
+        height: 20px;
+        width: fit-content;
+        padding: 2px 6px;
+      }
+      #coffee {
+        background-color: #fef1ea;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg nav-container">
+        <ul class="nav-ul">
+          <li>
+            <a href="#Home"
+              ><img
+                src="./assets/images/Brewed Awakening Logo.svg"
+                alt="Brewed Awakening Logo"
+                class="brand-logo"
+            /></a>
+          </li>
+          <li class="links-container-li">
+            <div class="container">
+              <ul class="links-container">
+                <li><a href="">Menu</a></li>
+                <li><a href="">Pastries</a></li>
+                <li><a href="">The Space</a></li>
+                <li><a href="">Visit Us</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <form class="search-bar" action="#" metod="" GET>
+              <input
+                type="search"
+                placeholder="Search..."
+                class="search-input"
+              />
+            </form>
+          </li>
+
+          <li><button class="booking-btn cta-btn btn">Book a table</button></li>
+          <li>
+            <button class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <div class="container-fluid">
+        <form class="search-bar-2" action="#" metod="" GET>
+          <input type="search" placeholder="Search..." class="search-input-2" />
+        </form>
+
+        <div class="grid-container">
+          <div class="hero-title">
+            <h1>Good Coffee. <br /><span>Good Mornings</span></h1>
+          </div>
+
+          <div class="hero-main-img-div">
+            <img
+              src="./assets/images/Brewed Awakenin Home Page Coffee image.jpg"
+              alt="A cup of Origin Ethopian Simado Coffee"
+              class="hero-main-image"
+            />
+          </div>
+          <div class="hero-description">
+            <p>
+              Specialty coffee, fresh pastries, and a cozy place to slow down.
+              pulled fresh to start your day with calm intention
+            </p>
+          </div>
+
+          <div class="hero-btn-div">
+            <button class="cta-btn btn">View Menu</button>
+            <button class="btn">Find Us</button>
+          </div>
+          <div class="hero-badge-div">
+            <div class="hero-badge"><p>House blend espresso</p></div>
+            <div class="hero-badge"><p>Fresh bakes from 7:30 AM</p></div>
+            <div class="hero-badge"><p>Fast Wi-Fi</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="coffee">
+      <div class="container-fluid">
+        <h3>STAR OF THE SHOW</h3>
+        <h2>Our Coffee</h2>
+        <p>Simple, honest, and properly brewed. Hot or Iced</p>
+        <div class="catalouge">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </div>
+    </section>
+    <section id="pastries">
+      <div class="container-fluid">
+        <h3>FRESH FROM THE OVEN</h3>
+        <h2>Baked fresh every morning before we open our doors.</h2>
+        <p>
+          We knead, proof, and bake in-house so your pastery is warm, crisp and
+          ready right beside your morning coffee.
+        </p>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <section id="the-space">
+      <div class="container-fluid">
+        <h3>THE SPACE</h3>
+        <h2>Stay a while</h2>
+        <div>coursel</div>
+      </div>
+    </section>
+    <section id="visit-us">
+      <h3>LOCATION & HOURS</h3>
+      <h2>FIND US</h2>
+      <p>Drop in for your morning cup or pull up a chair in te afternoon.</p>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="map">map</div>
+    </section>
+    <section id="book-a-table">
+      <div class="container-fluid"></div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <p>©️2026 Brewed Awakekening</p>
+    </div>
+  </footer>
+</html>
