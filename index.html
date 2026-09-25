@@ -11,70 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
-    <style>
-      body {
-        box-sizing: border-box;
-        background-color: #fff8f5;
-      }
-      #hero {
-        background-color: #fff8f5;
-        min-height: 100vh;
-      }
-      .grid-container {
-        display: grid;
-      }
-      .hero-title {
-        color: #2b1810;
-      }
-      .hero-title span {
-        color: #825430;
-      }
-      .hero-main-image {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 15px;
-        border-radius: 20px;
-      }
-      .hero-main-image-div {
-        width: 300px;
-        height: 300px;
-        border-radius: 10%;
-        overflow-x: clip;
-      }
-      .hero-btn-div {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 15px;
-      }
-      .btn {
-        height: 40px;
-        background-color: #f8ebe4;
-        border-radius: 10px;
-        min-width: 60px;
-        color: #2b1810;
-      }
-      .cta-btn {
-        background-color: #2b1810;
-        color: #ffffff;
-      }
-      .hero-badge-div {
-        display: flex;
-        gap: 8px;
-        font-size: 10px;
-        font-weight: 500;
-      }
-      .hero-badge {
-        box-sizing: border-box;
-        background-color: #fef1ea;
-        border-radius: 20px;
-        height: 20px;
-        width: fit-content;
-        padding: 2px 6px;
-      }
-      #coffee {
-        background-color: #fef1ea;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <header>
@@ -126,16 +63,13 @@
         </form>
 
         <div class="grid-container">
+          <div class="tags-div">
+            <p class="tag location-badge">
+              📍 Victoria Island . Karimu Kotun St
+            </p>
+          </div>
           <div class="hero-title">
             <h1>Good Coffee. <br /><span>Good Mornings</span></h1>
-          </div>
-
-          <div class="hero-main-img-div">
-            <img
-              src="./assets/images/Brewed Awakenin Home Page Coffee image.jpg"
-              alt="A cup of Origin Ethopian Simado Coffee"
-              class="hero-main-image"
-            />
           </div>
           <div class="hero-description">
             <p>
@@ -148,10 +82,21 @@
             <button class="cta-btn btn">View Menu</button>
             <button class="btn">Find Us</button>
           </div>
-          <div class="hero-badge-div">
-            <div class="hero-badge"><p>House blend espresso</p></div>
-            <div class="hero-badge"><p>Fresh bakes from 7:30 AM</p></div>
-            <div class="hero-badge"><p>Fast Wi-Fi</p></div>
+          <div class="hero-main-img-div">
+            <img
+              src="./assets/images/Brewed Awakenin Home Page Coffee image.jpg"
+              alt="A cup of Origin Ethopian Simado Coffee"
+              class="hero-main-image"
+            />
+            <div class="hero-main-img-badge">
+              <p>Single Origin Ethopian Simado</p>
+            </div>
+          </div>
+
+          <div class="hero-badge-div tags-div">
+            <div class="tag"><p>House blend espresso</p></div>
+            <div class="tag"><p>Fresh bakes from 7:30 AM</p></div>
+            <div class="tag"><p>Fast Wi-Fi</p></div>
           </div>
         </div>
       </div>
