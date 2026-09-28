@@ -385,7 +385,7 @@ ul {
 }
 
 .price-tag {
-  background-color: #ffffff;
+  background-color: #f8ebe4;
   font-size: 12px;
   position: absolute;
   top: 7px;
@@ -403,4 +403,9 @@ ul {
 
 #pastries > div {
   margin-top: 35px;
+}
+
+.card2-description {
+  margin-top: 10px;
+  font-size: 14px;
 }
