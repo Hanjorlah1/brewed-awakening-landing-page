@@ -402,10 +402,56 @@ ul {
 }
 
 #pastries > div {
-  margin-top: 35px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+#the-space {
+  background-color: #fef1ea;
+}
+
+#the-space > div {
+  padding-top: 35px;
+  padding-bottom: 30px;
 }
 
 .card2-description {
   margin-top: 10px;
   font-size: 14px;
+}
+
+#visit-us > div {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  width: 100%;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  height: 110px;
+  padding: 15px;
+}
+
+.contact-card > p {
+  font-size: 12px;
+}
+
+.contact-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.contact-section-title {
+  margin-bottom: 20px;
 }
