@@ -755,12 +755,6 @@ footer > div > p {
   }
 
   .nav-booking-btn {
-    display: flex;
-    width: fit-content;
-    padding: 8px;
-  }
-
-  .booking-btn {
     display: none;
   }
 }
@@ -810,4 +804,48 @@ footer > div > p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* ============================================
+   SUBTLE BUTTON ANIMATIONS & TRANSITIONS
+   ============================================ */
+
+.btn,
+.cta-btn,
+.nav-booking-btn,
+.modal-button {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, box-shadow, background-color;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover,
+.cta-btn:hover,
+.nav-booking-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(43, 24, 16, 0.15);
+}
+
+.btn:not(.cta-btn):hover {
+  background-color: #f1ded4;
+}
+
+.cta-btn:hover {
+  background-color: #3d2318;
+  box-shadow: 0 8px 20px rgba(43, 24, 16, 0.25);
+}
+
+.btn:active,
+.cta-btn:active,
+.nav-booking-btn:active {
+  transform: translateY(0px) scale(0.98);
+  box-shadow: 0 2px 8px rgba(43, 24, 16, 0.12);
+  transition: all 0.1s ease;
+}
+
+.btn:focus-visible,
+.cta-btn:focus-visible {
+  outline: 2px solid #825430;
+  outline-offset: 3px;
 }
