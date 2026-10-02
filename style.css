@@ -807,7 +807,7 @@ footer > div > p {
 }
 
 /* ============================================
-   SUBTLE BUTTON ANIMATIONS & TRANSITIONS
+    BUTTON ANIMATIONS
    ============================================ */
 
 .btn,
@@ -848,4 +848,21 @@ footer > div > p {
 .cta-btn:focus-visible {
   outline: 2px solid #825430;
   outline-offset: 3px;
+}
+
+.cta-btn,
+.cta-btn > a,
+.nav-booking-btn {
+  color: #ffffff !important;
+}
+
+.cta-btn:hover,
+.cta-btn:hover > a,
+.nav-booking-btn:hover {
+  color: #ffffff !important;
+}
+
+.btn:not(.cta-btn):hover,
+.btn:not(.cta-btn):hover > a {
+  color: #2b1810;
 }
