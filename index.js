@@ -48,7 +48,7 @@ searchInputs.forEach(function (searchInput) {
 
         if (productName.includes(searchText)) {
           found = true;
-          const section = product.closest("section");
+          const section = product.closest("article");
 
           section.scrollIntoView({
             behavior: "smooth",
